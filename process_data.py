@@ -1,4 +1,3 @@
-# src/process_data.py
 import pandas as pd
 
 def clean_data():

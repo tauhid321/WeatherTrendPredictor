@@ -1,4 +1,3 @@
-# src/fetch_data.py
 import os, requests, time, datetime
 import pandas as pd
 from dotenv import load_dotenv
@@ -33,8 +32,9 @@ def fetch_last_90_days():
                 "pressure": data['current']['pressure']
             }
             records.append(rec)
-        time.sleep(1)  # respect rate limit
+        time.sleep(1)
 
     df = pd.DataFrame(records)
+    os.makedirs('data', exist_ok=True)
     df.to_csv('data/raw_weather.csv', index=False)
     return df

@@ -1,4 +1,3 @@
-# main.py
 from src.fetch_data import fetch_last_90_days
 from src.process_data import clean_data
 from src.predict_weather import forecast

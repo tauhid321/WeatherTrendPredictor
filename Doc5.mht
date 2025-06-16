@@ -1,0 +1,354 @@
+MIME-Version: 1.0
+Content-ID: <.htm@01DBDEBC.2F7CAF40>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html>
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DGenerator content=3D"Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Apple Braille";
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+code
+	{font-family:"Courier New";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=3DEN-US style=3D'word-wrap:break-word'>
+
+<div class=3DWordSection1>
+
+<h2><span style=3D'font-size:18.0pt;line-height:115%'>Project Structure</spa=
+n></h2>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"Apple Braille";color:#BF=
+9000'>WeatherTrendPredictor/</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>├</span><span
+style=3D'font-family:"Times New Roman",serif;color:#BF9000'>──</span><sp=
+an
+style=3D'font-family:"Apple Braille";color:#BF9000'> data/         =
+           </span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span><span
+style=3D'font-family:"Apple Braille";color:#BF9000'>   </span><span
+style=3D'font-family:"MS Mincho";color:#BF9000'>├</span><span style=3D'fon=
+t-family:
+"Times New Roman",serif;color:#BF9000'>──</span><span style=3D'font-fami=
+ly:"Apple Braille";
+color:#BF9000'> raw_weather.csv      </span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span><span
+style=3D'font-family:"Apple Braille";color:#BF9000'>   </span><span
+style=3D'font-family:"MS Mincho";color:#BF9000'>└</span><span style=3D'fon=
+t-family:
+"Times New Roman",serif;color:#BF9000'>──</span><span style=3D'font-fami=
+ly:"Apple Braille";
+color:#BF9000'> processed_weather.csv</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>├</span><span
+style=3D'font-family:"Times New Roman",serif;color:#BF9000'>──</span><sp=
+an
+style=3D'font-family:"Apple Braille";color:#BF9000'> src/         =
+            </span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span><span
+style=3D'font-family:"Apple Braille";color:#BF9000'>   </span><span
+style=3D'font-family:"MS Mincho";color:#BF9000'>├</span><span style=3D'fon=
+t-family:
+"Times New Roman",serif;color:#BF9000'>──</span><span style=3D'font-fami=
+ly:"Apple Braille";
+color:#BF9000'> fetch_data.py        # Get weather data</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span><span
+style=3D'font-family:"Apple Braille";color:#BF9000'>   </span><span
+style=3D'font-family:"MS Mincho";color:#BF9000'>├</span><span style=3D'fon=
+t-family:
+"Times New Roman",serif;color:#BF9000'>──</span><span style=3D'font-fami=
+ly:"Apple Braille";
+color:#BF9000'> process_data.py      # Clean &amp; enrich</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span><span
+style=3D'font-family:"Apple Braille";color:#BF9000'>   </span><span
+style=3D'font-family:"MS Mincho";color:#BF9000'>└</span><span style=3D'fon=
+t-family:
+"Times New Roman",serif;color:#BF9000'>──</span><span style=3D'font-fami=
+ly:"Apple Braille";
+color:#BF9000'> predict_weather.py   # Model &amp; forecast</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>│</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>├</span><span
+style=3D'font-family:"Times New Roman",serif;color:#BF9000'>──</span><sp=
+an
+style=3D'font-family:"Apple Braille";color:#BF9000'> main.py        =
+          #
+Orchestrates the pipeline</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>├</span><span
+style=3D'font-family:"Times New Roman",serif;color:#BF9000'>──</span><sp=
+an
+style=3D'font-family:"Apple Braille";color:#BF9000'> requirements.txt   =
+      #
+Dependencies</span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"MS Mincho";color:#BF9000=
+'>└</span><span
+style=3D'font-family:"Times New Roman",serif;color:#BF9000'>──</span><sp=
+an
+style=3D'font-family:"Apple Braille";color:#BF9000'> README.md       =
+         #
+Instructions &amp; API setup</span></p>
+
+<h1><code><span style=3D'line-height:115%;font-family:"Calibri Light",sans-s=
+erif'>Requirements.txt</span></code></h1>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>requests</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>pandas</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>numpy</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>scikit-learn</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>statsmodels</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:#ED7D31'>python-dotenv</span></p>
+
+<h1> </h1>
+
+<h1><code><span style=3D'line-height:115%;font-family:"Calibri Light",sans-s=
+erif'>fetch_data.py</span></code></h1>
+
+<p class=3DMsoNormal><span style=3D'color:red'># src/fetch_data.py</span></p=
+>
+
+<p class=3DMsoNormal><span style=3D'color:red'>import os, requests, time, da=
+tetime</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>import pandas as pd</span></p=
+>
+
+<p class=3DMsoNormal><span style=3D'color:red'>from dotenv import load_doten=
+v</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>&nbsp;</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>load_dotenv()</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>API_KEY =3D
+os.getenv(&quot;OPENWEATHER_API_KEY&quot;)</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>LOCATION =3D
+os.getenv(&quot;LOCATION&quot;, &quot;Chattogram,Bangladesh&quot;)</span></p=
+>
+
+<p class=3DMsoNormal><span style=3D'color:red'>&nbsp;</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>def fetch_last_90_days():</sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    end =3D datetime.datet=
+ime.utcnow()</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    start =3D end -
+datetime.timedelta(days=3D90)</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    records =3D []</span><=
+/p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>&nbsp;</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    for day in
+pd.date_range(start=3Dstart, end=3Dend, freq=3D'D'):</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        ts =3D
+int(day.replace(hour=3D12, minute=3D0).timestamp())</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        resp =3D reque=
+sts.get(</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>           
+&quot;https://api.openweathermap.org/data/2.5/onecall/timemachine&quot;,</sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>            params=
+={</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;lat&quot;:
+os.getenv(&quot;LAT&quot;),</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;lon&quot;:
+os.getenv(&quot;LON&quot;),</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;dt&quot;: ts,</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;appid&quot;:
+API_KEY,</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;units&quot;:
+&quot;metric&quot;</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>            }</spa=
+n></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        )</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        data =3D resp.=
+json()</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        if 'current' i=
+n data:</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>            rec =
+=3D {</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;date&quot;:
+day.date(),</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+  &quot;temp&quot;:
+data['current']['temp'],</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+ 
+&quot;humidity&quot;: data['current']['humidity'],</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>              =
+ 
+&quot;pressure&quot;: data['current']['pressure']</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>            }</spa=
+n></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>            record=
+s.append(rec)</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>        time.sleep(1)=
+  # respect
+rate limit</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>&nbsp;</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    df =3D pd.DataFrame(re=
+cords)</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>   
+df.to_csv('data/raw_weather.csv', index=3DFalse)</span></p>
+
+<p class=3DMsoNormal><span style=3D'color:red'>    return df</span></p>
+
+</div>
+
+</body>
+
+</html>
